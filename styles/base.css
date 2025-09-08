@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.5;
+    display: grid;
+    grid-template-rows: auto 1fr auto / 300px 1fr auto;
+    margin: 20px;
+}
+
+h2 {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.1px;
+    font-size: 20px;
+    background-color: #495057;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+h3 {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.1px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: #000 solid 1px;
+    width: 400px;
+    margin-left: 70px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #69db7c;
+    position: relative;
+    width: 1020px;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+    font-size: 16px;
+}
+
+#course-title  {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(224, 242, 123);
+}
+#lastupdated {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(224, 242, 123);
+}
+
+nav {
+    background-color: #d0bfff;
+    margin: 0 auto;
+    max-width: 1030px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    color: #000;
+}
+
+nav a:hover {
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid rgb(0 0 0 / .2);
+}
+
+.active {
+    color: lightblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    max-width: 1030px;
+    margin: 1rem auto;
+    border-radius: 10px;
+    
+
+}
+
+.card1 {
+    font-family:"Titillium Web", sans-serif ;
+    font-size: 18px;
+    line-height: 2.6rem;
+    background-color: #f3f6f4;
+
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / .3);
+    border-radius: 5px;
+
+
+}
+
+.card2 {
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / .3);
+    border-radius: 5px;
+    background-color: #f3f6f4;
+    font-family:"Titillium Web", sans-serif ;
+    font-size: 18px;
+    line-height: 2.6rem;
+
+}
+
+.info-photo {
+    width: 150px;
+    position: relative;
+    left: 75%;
+    padding-top: 30px;
+
+}
+
+.info-photo2 {
+    width: 250px;
+    position: relative;
+    top: 65px;
+
+}
+
+.info-paragraph {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 12px;
+    position: relative;
+    bottom: 160px;
+    text-align: center;
+    width: 450px;
+}
+
+.paragraph {
+    margin-top: 2rem;
+    font-size: 12px;
+    bottom: 120px;
+    text-align: center;
+    width: 380px;
+    position: relative;
+    left: 270px;
+}
+.hobbies-list {
+    list-style-type: disc;
+    position: relative;
+    top: 140px;
+    line-height: 30px;
+    
+
+}
+
+.footer {
+    background-color: #d0bfff;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 100px;
+    max-width: 1020px;
+    margin-bottom: 20px;
+    font-family:"Roboto Flex", sans-serif ;
+
+}
