@@ -8,10 +8,9 @@
 body {
 
     font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
     line-height: 1.5;
     display: grid;
-    grid-template-rows: auto 1fr auto / 300px 1fr auto;
+    grid-template-rows: 120px  1fr    110px  ;
     margin: 20px;
 }
 
@@ -184,10 +183,15 @@ nav ul li {
     left: 270px;
 }
 .hobbies-list {
+    font-family:"Titillium Web", sans-serif ;
     list-style-type: disc;
     position: relative;
     top: 140px;
     line-height: 30px;
+    font-size: 18px;
+    padding-left: 20px;
+    width: 300px;
+    color: #000;
     
 
 }
