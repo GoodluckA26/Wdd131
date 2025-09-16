@@ -1,5 +1,5 @@
-
-@media (max-width: 1300px) {
+/* setting the max-with to display 2 columns when the screen is less than 1000px */
+@media (max-width: 1000px) {
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -60,16 +60,6 @@
     }
 
     
-@media (max-width: 768px) {
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-    }
-
-    .nav-menu.show {
-        display: flex;
-    }
-}
 
 }
 
