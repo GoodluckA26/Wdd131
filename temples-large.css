@@ -1,5 +1,5 @@
-/* setting the max-with to display 2 columns when the screen is less than 1000px */
-@media (max-width: 1000px) {
+/* setting the max-with to display 2 rows when the screen is less than 1200px */
+@media (max-width: 1200px) {
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -34,7 +34,7 @@
         height: 70%;
     }
 }
-
+/* setting the max-with to display 1 row when the screen is less than 800px */
 @media   (max-width: 800px) {
  nav ul {
         list-style: none;
